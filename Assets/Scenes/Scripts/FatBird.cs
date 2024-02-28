@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// INHERITANCE
 public class FatBird : Bird
 {
+    // POLYMORPHISM
+    // ENCAPSULATION
     protected override void Fly()
     {
         birdPrefab.transform.Translate(Vector3.left * Time.deltaTime * 2);

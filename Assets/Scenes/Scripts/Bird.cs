@@ -6,5 +6,6 @@ public abstract class Bird : MonoBehaviour
 {
     public GameObject birdPrefab;
 
+    // ABSTRACTION
     protected abstract void Fly();
 }
